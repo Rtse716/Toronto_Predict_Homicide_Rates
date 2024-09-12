@@ -14,7 +14,7 @@ from mlxtend.evaluate import bias_variance_decomp
 
 newDataframe = pd.read_excel(r"C:\Users\rinat\OneDrive\Desktop\SCHOOL STUFF\Machine Learning\Toronto\test.xlsx")
 
-# Copy and paste feature output from main.py
+# features from select_features.py
 feature_cols = ['Assault_2016', '  Single-detached house', '      EI - Other benefits: Average amount ($)',
                 '      Social assistance benefits: Average amount ($)',
                 "      Social assistance benefits: Aggregate amount ($'000)"]
