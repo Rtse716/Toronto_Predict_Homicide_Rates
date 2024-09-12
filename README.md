@@ -26,10 +26,6 @@ Download the crime_toronto.xlsx and Toronto_NBH_data.xlsx to your directory.
 
 In feature_selection.py, under #Merge two docs about Toronto, change the file path to the file paths of the downloaded xlsx files.
 
-After running feature_selection.py, copy and paste the ouputted list of features into the feature_col list in test_features.py.
-
-The purpose of separating the feature selection and prediction was to run and test the prediction portion of the project without needing to run through the feature selection every time. The feature selection portion of the project is time consuming to run.
-
 ### Prerequisites
 
 This project is buil using python 3.8.
